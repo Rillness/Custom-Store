@@ -1,0 +1,17 @@
+
+<a href="/">Go Back</a>
+<h2>TEST</h2>
+
+
+  <!-- I need a for LOOP MOTHERFUCKERS!!!! -->
+  <%body.forEach(function(a){%>
+
+
+<div>
+    <h3><a href="<%= a.Full[0].link %>"><%= a.Full[0].title %></a></h3>
+
+    <!-- <h3><%= a.Full[0].image[ a.Full[0].index ] %></h3> -->
+    <img src="<%= a.Full[0].image[ a.Full[0].index ] %>" alt="" width="100" height="100" />
+</div>
+
+<%});%>
